@@ -17,5 +17,8 @@ Programming For 3D Assignment 1 in Unity
 - Added Bloom to main camera
 - Added Reflection Probe
 
-![image-20211008133732816](../../../../Library/Application Support/typora-user-images/image-20211008133732816.png)
+![image-20211008133732816](readme pics/image-20211008133732816.png)
 
+## Lab 3
+
+<video src="readme pics/Screen Recording 2021-10-11 at 11.07.25.mov"></video>
