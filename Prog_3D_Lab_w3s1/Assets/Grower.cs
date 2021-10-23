@@ -22,14 +22,14 @@ public class Grower : MonoBehaviour
     {
         if((Input.GetKeyDown(KeyCode.G)) && inTrigger )
         {
-            print("hi");
+          //  print("hi");
             animator.SetTrigger(growTrigger);
         }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("In here");
+       // Debug.Log("In here");
         if(other.tag == playerTag)
         {
             inTrigger = true;
