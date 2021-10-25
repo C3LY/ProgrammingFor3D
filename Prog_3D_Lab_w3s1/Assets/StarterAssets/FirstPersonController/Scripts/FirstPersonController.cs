@@ -237,6 +237,7 @@ namespace StarterAssets
 					_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 					audioSource.PlayOneShot(jumpSound);
 					Debug.Log("playing jumpSound");
+					_jumpTimeoutDelta = JumpTimeout; //!To stop jumpSound from happening more than once
 				}
 
 				// jump timeout

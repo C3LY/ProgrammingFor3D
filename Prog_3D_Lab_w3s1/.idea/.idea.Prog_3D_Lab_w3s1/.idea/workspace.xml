@@ -13,7 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Destroyer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Grower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -76,6 +76,8 @@
       <updated>1634568773513</updated>
       <workItem from="1634568777971" duration="2129000" />
       <workItem from="1635007884516" duration="3641000" />
+      <workItem from="1635012182713" duration="403000" />
+      <workItem from="1635170201006" duration="755000" />
     </task>
     <servers />
   </component>
