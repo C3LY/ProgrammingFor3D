@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoorScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/Assets/Editor/Randomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/DoorScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/voice_Call.cs" />
       </list>
     </option>
   </component>
@@ -76,6 +78,7 @@
       <workItem from="1636734562318" duration="329000" />
       <workItem from="1636734903738" duration="1935000" />
       <workItem from="1637327399533" duration="1789000" />
+      <workItem from="1637607691049" duration="887000" />
     </task>
     <servers />
   </component>
