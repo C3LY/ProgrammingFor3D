@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - PropContainer
+  - Keybox
   layers:
   - Default
   - TransparentFX
