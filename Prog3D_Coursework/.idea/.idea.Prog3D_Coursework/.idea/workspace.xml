@@ -17,7 +17,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/PropDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DoorScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Goals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/keybox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -31,6 +33,8 @@
         <option value="$PROJECT_DIR$/Assets/PropDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Goals.cs" />
+        <option value="$PROJECT_DIR$/Assets/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/keybox.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +91,7 @@
       <workItem from="1637327399533" duration="1789000" />
       <workItem from="1637607691049" duration="887000" />
       <workItem from="1637935563627" duration="801000" />
-      <workItem from="1638024928772" duration="3713000" />
+      <workItem from="1638024928772" duration="7062000" />
     </task>
     <servers />
   </component>
