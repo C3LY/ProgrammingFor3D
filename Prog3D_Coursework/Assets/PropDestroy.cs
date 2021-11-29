@@ -6,6 +6,8 @@ using UnityEngine;
 public class PropDestroy : MonoBehaviour
 {
     [SerializeField] private GameObject[] lootDrop;
+    [SerializeField] private GameObject explosion;
+
     // Start is called before the first frame update
     private void OnTriggerStay(Collider other)
     {
@@ -18,6 +20,8 @@ public class PropDestroy : MonoBehaviour
                     GameObject newObject = GameObject.Instantiate(lootDrop[0]);
                     newObject.transform.SetParent(gameObject.transform.parent);
                     newObject.transform.localPosition = gameObject.transform.localPosition;
+                    GameObject newExplosion = GameObject.Instantiate(explosion);
+                    newExplosion.GetComponent<ParticleSystem>().Play();
                     Destroy(gameObject);
                 }
             }
