@@ -14,13 +14,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PropDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DoorScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GrabSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PickableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SystemsEntrance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OpenStartDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Goals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/keybox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EndComputer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,7 +37,12 @@
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Goals.cs" />
         <option value="$PROJECT_DIR$/Assets/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/PickableItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/GrabSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/keybox.cs" />
+        <option value="$PROJECT_DIR$/Assets/SystemsEntrance.cs" />
+        <option value="$PROJECT_DIR$/Assets/EndComputer.cs" />
       </list>
     </option>
   </component>
@@ -91,7 +99,17 @@
       <workItem from="1637327399533" duration="1789000" />
       <workItem from="1637607691049" duration="887000" />
       <workItem from="1637935563627" duration="801000" />
-      <workItem from="1638024928772" duration="7062000" />
+      <workItem from="1638024928772" duration="7418000" />
+      <workItem from="1638535265076" duration="234000" />
+      <workItem from="1638535751411" duration="25000" />
+      <workItem from="1638535831928" duration="925000" />
+      <workItem from="1638537427264" duration="24000" />
+      <workItem from="1638537506310" duration="17000" />
+      <workItem from="1638537806605" duration="327000" />
+      <workItem from="1638538502574" duration="316000" />
+      <workItem from="1638538880287" duration="58000" />
+      <workItem from="1638539074295" duration="13000" />
+      <workItem from="1638539566023" duration="42000" />
     </task>
     <servers />
   </component>

@@ -6,6 +6,8 @@ using UnityEngine;
 public class keybox : MonoBehaviour
 {
     private AudioSource _audioSource;
+
+    [SerializeField] private GameObject Strike;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +22,7 @@ public class keybox : MonoBehaviour
                 {
                     _audioSource.Play();
                     gameObject.SetActive(false);
+                    Strike.SetActive(true);
                 }
         }
     }
