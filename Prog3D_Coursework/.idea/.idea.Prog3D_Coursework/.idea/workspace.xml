@@ -12,18 +12,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GrabSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PickableItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SystemsEntrance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/HUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OpenStartDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Goals.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/EndComputer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SystemsEntrance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HUD.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/keybox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/EndComputer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PickUpItem.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,15 +34,18 @@
         <option value="$PROJECT_DIR$/Assets/voice_Call.cs" />
         <option value="$PROJECT_DIR$/Assets/SmashReplace.cs" />
         <option value="$PROJECT_DIR$/Assets/PropDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Goals.cs" />
         <option value="$PROJECT_DIR$/Assets/HUD.cs" />
         <option value="$PROJECT_DIR$/Assets/PickableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/GrabSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/keybox.cs" />
-        <option value="$PROJECT_DIR$/Assets/SystemsEntrance.cs" />
         <option value="$PROJECT_DIR$/Assets/EndComputer.cs" />
+        <option value="$PROJECT_DIR$/Assets/SystemsEntrance.cs" />
+        <option value="$PROJECT_DIR$/Assets/PickUpItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +112,15 @@
       <workItem from="1638538502574" duration="316000" />
       <workItem from="1638538880287" duration="58000" />
       <workItem from="1638539074295" duration="13000" />
-      <workItem from="1638539566023" duration="42000" />
+      <workItem from="1638539566023" duration="605000" />
+      <workItem from="1638544879420" duration="981000" />
+      <workItem from="1638546115694" duration="64000" />
+      <workItem from="1638546263869" duration="19000" />
+      <workItem from="1638546448013" duration="257000" />
+      <workItem from="1638546843396" duration="41000" />
+      <workItem from="1638546977687" duration="201000" />
+      <workItem from="1638796805299" duration="1441000" />
+      <workItem from="1638799291659" duration="2161000" />
     </task>
     <servers />
   </component>

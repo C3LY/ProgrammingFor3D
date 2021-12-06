@@ -20,8 +20,16 @@ public class OpenStartDoor : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 Debug.Log("animating start door");
-                anim.SetTrigger("DoorOpen");
+                anim.SetBool("DoorOpen",  true);
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player")&& anim.GetBool("DoorOpen"))
+        {
+            anim.SetBool("DoorOpen",  false);
         }
     }
 }

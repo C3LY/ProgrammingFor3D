@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public bool keyboxComplete = false;
+
+    public bool systemsRoomsComplete = false;
+
+    public bool hackSystemsComplete = false;
     // Start is called before the first frame update
     void Start()
     {
