@@ -1975,7 +1975,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22512
+  m_Name: pb_Mesh22516
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2273,7 +2273,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22496
+  m_Name: pb_Mesh22552
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3857,7 +3857,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23320
+  m_Name: pb_Mesh-5356
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17671,6 +17671,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1654260417}
     m_Modifications:
+    - target: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_TagString
+      value: HangingLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.r
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Intensity
+      value: 45.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6104761224871856876, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Name
       value: Hanging Light (2)
@@ -17721,6 +17741,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+--- !u!1 &810146246 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+  m_PrefabInstance: {fileID: 810146245}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &810146247
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810146246}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c1bf8d997d0c431d8bf3520d39a2c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &816218524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1195415760139927943, guid: aae952dc76387e84287a598d901b120d, type: 3}
@@ -18749,7 +18793,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh22778
+  m_Name: pb_Mesh22834
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20286,7 +20330,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh23324
+  m_Name: pb_Mesh23398
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -25971,9 +26015,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 851cab780b89346fc87e0a35a5774a01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyboxComplete: 0
-  systemsRoomsComplete: 0
-  hackSystemsComplete: 0
 --- !u!4 &1257912078 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7125589774974728447, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
@@ -26882,6 +26923,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1654260417}
     m_Modifications:
+    - target: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_TagString
+      value: HangingLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.r
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Intensity
+      value: 45.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6104761224871856876, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Name
       value: Hanging Light (4)
@@ -26932,6 +26993,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+--- !u!1 &1346143151 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+  m_PrefabInstance: {fileID: 1346143150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1346143152
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346143151}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c1bf8d997d0c431d8bf3520d39a2c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1347095063 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1195415760139927943, guid: aae952dc76387e84287a598d901b120d, type: 3}
@@ -29387,6 +29472,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1654260417}
     m_Modifications:
+    - target: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_TagString
+      value: HangingLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.r
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Intensity
+      value: 45.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6104761224871856876, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Name
       value: Hanging Light (5)
@@ -29437,6 +29542,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+--- !u!1 &1472048494 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+  m_PrefabInstance: {fileID: 1472048493}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1472048495
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472048494}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c1bf8d997d0c431d8bf3520d39a2c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1473625268 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1195415760139927943, guid: aae952dc76387e84287a598d901b120d, type: 3}
@@ -29920,7 +30049,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh21840
+  m_Name: pb_Mesh21866
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -33499,6 +33628,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1654260417}
     m_Modifications:
+    - target: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_TagString
+      value: HangingLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.r
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Intensity
+      value: 45.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6104761224871856876, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Name
       value: Hanging Light (1)
@@ -33549,6 +33698,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+--- !u!1 &1752452386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+  m_PrefabInstance: {fileID: 1752452385}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1752452387
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752452386}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c1bf8d997d0c431d8bf3520d39a2c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1752949700
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34384,7 +34557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6778069794998177060, guid: 65467f6b70ddf5e4890bd9f317b3a5b7, type: 3}
       propertyPath: m_Name
-      value: Catwalk Stairs
+      value: Alarm Catwalk Stairs
       objectReference: {fileID: 0}
     - target: {fileID: 7515332717815086903, guid: 65467f6b70ddf5e4890bd9f317b3a5b7, type: 3}
       propertyPath: m_RootOrder
@@ -34432,6 +34605,176 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65467f6b70ddf5e4890bd9f317b3a5b7, type: 3}
+--- !u!1 &1791927190 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6778069794998177060, guid: 65467f6b70ddf5e4890bd9f317b3a5b7, type: 3}
+  m_PrefabInstance: {fileID: 1791927189}
+  m_PrefabAsset: {fileID: 0}
+--- !u!165 &1791927191
+AudioHighPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791927190}
+  m_Enabled: 1
+  m_CutoffFrequency: 3141
+  m_HighpassResonanceQ: 1
+--- !u!169 &1791927192
+AudioLowPassFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791927190}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_LowpassResonanceQ: 1
+  lowpassLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.07285129
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!170 &1791927193
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791927190}
+  m_Enabled: 1
+  m_DistortionLevel: 1
+--- !u!82 &1791927194
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791927190}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 60dfc3ef06dd948bd9c7c821e9e89b97, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.0007
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1791927195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791927190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b15ec3d0fb3a34826bfefbb891cd8d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &1791927196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791927190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2343407, y: 3.8339548, z: 6.4219503}
+  m_Center: {x: 0.61717033, y: 5.6990523, z: 2.7109752}
 --- !u!4 &1795232777 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1195415760139927943, guid: aae952dc76387e84287a598d901b120d, type: 3}
@@ -35294,13 +35637,29 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_TagString
+      value: HangingLight
+      objectReference: {fileID: 0}
     - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Range
       value: 2.84
       objectReference: {fileID: 0}
     - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.r
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Intensity
-      value: 21.1
+      value: 45.2
       objectReference: {fileID: 0}
     - target: {fileID: 6104761224871856876, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Name
@@ -35352,6 +35711,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+--- !u!1 &1855429959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+  m_PrefabInstance: {fileID: 1855429958}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1855429960
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855429959}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c1bf8d997d0c431d8bf3520d39a2c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &1859359200 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7125589774974728447, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
@@ -38471,6 +38854,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1654260417}
     m_Modifications:
+    - target: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_TagString
+      value: HangingLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Color.r
+      value: 0.93333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4916391778166431201, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+      propertyPath: m_Intensity
+      value: 45.2
+      objectReference: {fileID: 0}
     - target: {fileID: 6104761224871856876, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
       propertyPath: m_Name
       value: Hanging Light (3)
@@ -38521,6 +38924,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+--- !u!1 &2086283071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4390529221618369531, guid: 9f50fdb071f54674f8166b46f510ad84, type: 3}
+  m_PrefabInstance: {fileID: 2086283070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2086283072
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2086283071}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c1bf8d997d0c431d8bf3520d39a2c38, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &2086918417
 PrefabInstance:
   m_ObjectHideFlags: 0

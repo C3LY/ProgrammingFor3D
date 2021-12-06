@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Alarm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OpenStartDoor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -31,21 +32,23 @@
         <option value="$PROJECT_DIR$/Assets/Editor/Randomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/DoorScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/voice_Call.cs" />
         <option value="$PROJECT_DIR$/Assets/SmashReplace.cs" />
         <option value="$PROJECT_DIR$/Assets/PropDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Goals.cs" />
         <option value="$PROJECT_DIR$/Assets/HUD.cs" />
         <option value="$PROJECT_DIR$/Assets/PickableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/GrabSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/keybox.cs" />
         <option value="$PROJECT_DIR$/Assets/EndComputer.cs" />
         <option value="$PROJECT_DIR$/Assets/SystemsEntrance.cs" />
         <option value="$PROJECT_DIR$/Assets/PickUpItem.cs" />
         <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/alarm.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Alarm.cs" />
+        <option value="$PROJECT_DIR$/Assets/keybox.cs" />
+        <option value="$PROJECT_DIR$/Assets/voice_Call.cs" />
       </list>
     </option>
   </component>
@@ -120,7 +123,8 @@
       <workItem from="1638546843396" duration="41000" />
       <workItem from="1638546977687" duration="201000" />
       <workItem from="1638796805299" duration="1441000" />
-      <workItem from="1638799291659" duration="2161000" />
+      <workItem from="1638799291659" duration="5911000" />
+      <workItem from="1638808569935" duration="3128000" />
     </task>
     <servers />
   </component>

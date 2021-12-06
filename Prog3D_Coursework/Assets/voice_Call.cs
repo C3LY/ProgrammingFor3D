@@ -15,10 +15,17 @@ public class voice_Call : MonoBehaviour
     [SerializeField] private AudioClip foundSystem;
     [SerializeField] private AudioClip uhOhAlarm;
     private AudioSource audioSource;
+
+    public  void playKeybox()
+    {
+        Debug.Log("invoicecallplayingaudio");
+        audioSource.clip = foundKeyBox;
+        audioSource.Play();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
