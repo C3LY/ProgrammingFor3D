@@ -2,20 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class EndComputer : MonoBehaviour
 {
-    private AudioSource audioSource;
 
     [SerializeField] private GameObject hackingSystemUI;
     [SerializeField] private GameObject completeUI;
     [SerializeField] private GameObject StrikeUI;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
+    [SerializeField] private UnityEvent voiceCallEvent;
 
     // Update is called once per frame
     void Update()
@@ -43,6 +38,6 @@ public class EndComputer : MonoBehaviour
         completeUI.SetActive(true);
         completeUI.GetComponent<Animator>().SetTrigger("Complete");
         StrikeUI.SetActive(true);
-        audioSource.Play();
+        voiceCallEvent.Invoke();
     }
 }

@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Goals.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EndComputer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Fence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SystemsEntrance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/HUD.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,17 +39,18 @@
         <option value="$PROJECT_DIR$/Assets/HUD.cs" />
         <option value="$PROJECT_DIR$/Assets/PickableItem.cs" />
         <option value="$PROJECT_DIR$/Assets/GrabSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/EndComputer.cs" />
-        <option value="$PROJECT_DIR$/Assets/SystemsEntrance.cs" />
         <option value="$PROJECT_DIR$/Assets/PickUpItem.cs" />
         <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/alarm.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Alarm.cs" />
         <option value="$PROJECT_DIR$/Assets/keybox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Alarm.cs" />
+        <option value="$PROJECT_DIR$/Assets/SystemsEntrance.cs" />
+        <option value="$PROJECT_DIR$/Assets/EndComputer.cs" />
         <option value="$PROJECT_DIR$/Assets/voice_Call.cs" />
+        <option value="$PROJECT_DIR$/Assets/Fence.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +126,7 @@
       <workItem from="1638546977687" duration="201000" />
       <workItem from="1638796805299" duration="1441000" />
       <workItem from="1638799291659" duration="5911000" />
-      <workItem from="1638808569935" duration="3128000" />
+      <workItem from="1638808569935" duration="5816000" />
     </task>
     <servers />
   </component>

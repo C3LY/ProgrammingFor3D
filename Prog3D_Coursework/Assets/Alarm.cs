@@ -2,14 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Alarm : MonoBehaviour
 {
-    private AudioSource _audioSource;
+    [SerializeField] private UnityEvent voiceCallEvent;
 
     private void Start()
     {
-        _audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerStay(Collider other)
@@ -17,7 +17,7 @@ public class Alarm : MonoBehaviour
         if (other.CompareTag("Player") && GameManager.Instance.KeyboxComplete && GameManager.Instance.AlarmSet==false)
         {
             GameManager.Instance.AlarmSet = true;
-            _audioSource.Play();
+            voiceCallEvent.Invoke();
             foreach(GameObject lightObject in GameObject.FindGameObjectsWithTag("HangingLight"))
             {
               //  if(lightObject.name == "Hanging Point Light")
@@ -32,6 +32,8 @@ public class Alarm : MonoBehaviour
             {
                 alarmSpeaker.GetComponent<AudioSource>().Play();
             }
+
+            StartCoroutine(openExitDoor());
         }
     }
 
@@ -39,5 +41,13 @@ public class Alarm : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         lightObjectAnim.SetBool("HangingLightFlash", true);
+        
+    }
+    
+    private IEnumerator openExitDoor()
+    {
+        yield return new WaitForSeconds(10);
+        GameObject.FindGameObjectWithTag("ExitDoor").GetComponent<Animator>().SetTrigger("OpenExit");
+        
     }
 }

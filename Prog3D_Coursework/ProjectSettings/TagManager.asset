@@ -8,6 +8,8 @@ TagManager:
   - PropContainer
   - Keybox
   - HangingLight
+  - AlarmSpeaker
+  - ExitDoor
   layers:
   - Default
   - TransparentFX
