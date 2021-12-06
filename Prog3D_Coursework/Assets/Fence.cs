@@ -15,12 +15,10 @@ public class Fence : MonoBehaviour
             voiceCallEvent.Invoke();
             if (GameManager.Instance.KeyboxComplete)
             {
-                {
-                    if (Input.GetKeyDown(KeyCode.E))
+                if (Input.GetKeyDown(KeyCode.E))
                     {
                         GetComponent<Animator>().SetBool("FenceOpen", true);
                     }
-                }
             }
         }
     }
