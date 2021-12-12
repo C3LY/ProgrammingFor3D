@@ -10,6 +10,7 @@ TagManager:
   - HangingLight
   - AlarmSpeaker
   - ExitDoor
+  - GroundProps
   layers:
   - Default
   - TransparentFX

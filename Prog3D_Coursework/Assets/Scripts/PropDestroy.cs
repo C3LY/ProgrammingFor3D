@@ -20,11 +20,12 @@ public class PropDestroy : MonoBehaviour
                     GameObject newObject = GameObject.Instantiate(lootDrop[0]);
                     newObject.transform.SetParent(gameObject.transform.parent);
                     newObject.transform.localPosition = gameObject.transform.localPosition;
-                    GameObject newExplosion = GameObject.Instantiate(explosion);
+                    GameObject newExplosion = GameObject.Instantiate(explosion, transform.position, Quaternion.identity);
+                    newExplosion.transform.parent = gameObject.transform.parent;
                     newExplosion.GetComponentInChildren<ParticleSystem>().Play();
                     Destroy(gameObject);
                 }
             }
-    }
+        }
     }
 }
