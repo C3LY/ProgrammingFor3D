@@ -14,6 +14,6 @@ public class ExitDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E)) anim.SetTrigger("OpenDoor");
+        if(Input.GetKeyDown(KeyCode.E)) anim.SetTrigger("OpenExit");
     }
 }

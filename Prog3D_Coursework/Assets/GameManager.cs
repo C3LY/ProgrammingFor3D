@@ -47,10 +47,18 @@ public class GameManager : MonoBehaviour
     private bool alarmSet = false;
     // Start is called before the first frame update
     private void Awake()
-    {
+    { 
         _instance = this;
     }
-    
+
+    [SerializeField] private GameObject player;
+
+    public GameObject Player
+    {
+        get => player;
+        set => player = value;
+    }
+
 
     // Update is called once per frame
     void Update()

@@ -21,7 +21,7 @@ public class PropDestroy : MonoBehaviour
                     newObject.transform.SetParent(gameObject.transform.parent);
                     newObject.transform.localPosition = gameObject.transform.localPosition;
                     GameObject newExplosion = GameObject.Instantiate(explosion);
-                    newExplosion.GetComponent<ParticleSystem>().Play();
+                    newExplosion.GetComponentInChildren<ParticleSystem>().Play();
                     Destroy(gameObject);
                 }
             }
