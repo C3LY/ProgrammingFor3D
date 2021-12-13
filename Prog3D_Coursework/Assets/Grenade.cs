@@ -32,11 +32,12 @@ public class Grenade : PickUpItem
         {
             if (objectCollider.CompareTag("Enemy") || objectCollider.CompareTag("GroundProps"))
             {
-                Rigidbody rb = objectCollider.GetComponent<Rigidbody>();
-                if (rb)
-                {
-                    rb.AddExplosionForce(force, transform.position, radius);
-                }
+//                Rigidbody rb = objectCollider.GetComponent<Rigidbody>();
+                   //                if (rb)
+                   //                {
+                   //                    rb.AddExplosionForce(force, transform.position, radius);
+                   //                }
+                   Destroy(objectCollider.gameObject);
             }
         } 
         Destroy(gameObject);
