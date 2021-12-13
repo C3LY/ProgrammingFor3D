@@ -12,8 +12,10 @@ GameObject:
   - component: {fileID: 1102557374003688410}
   - component: {fileID: 6661276281829707555}
   - component: {fileID: 3290010511597644689}
+  - component: {fileID: 9116815114145351352}
+  - component: {fileID: 9173083532384623752}
   m_Layer: 0
-  m_Name: SciFi_Crate_Long
+  m_Name: Crate Long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,6 +57,8 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -66,6 +70,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -78,6 +83,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &3290010511597644689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91,3 +97,31 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6403392, y: 0.59972155, z: 1.2744108}
   m_Center: {x: 0.32004324, y: 0.29986495, z: 0.63720685}
+--- !u!114 &9116815114145351352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921675115321883647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7716836a1bd724e69bf76d57c26a052c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootDrop:
+  - {fileID: 6378302203272779800, guid: 8aa8ae5207b114f7aa0a260b1ccc0535, type: 3}
+  explosion: {fileID: 3412568432640997479, guid: 4c38627f1557a4dadbdfd3ffd44b5774, type: 3}
+--- !u!65 &9173083532384623752
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4921675115321883647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.2475076, y: 0.59972155, z: 2.4767544}
+  m_Center: {x: 0.2694959, y: 0.29986495, z: 0.9088451}

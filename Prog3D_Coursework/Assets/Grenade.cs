@@ -5,6 +5,10 @@ using UnityEngine;
 public class Grenade : PickUpItem
 {
     private AudioSource audioSourceGrenade;
+    private float force = 2f;
+    private float radius = 10;
+
+    [SerializeField] private GameObject explosionEffect;
     private void OnMouseUp()
     {
         this.transform.parent = null;
@@ -19,16 +23,23 @@ public class Grenade : PickUpItem
     private IEnumerator explode()
     {
         yield return new WaitForSeconds(2);
+        Instantiate(explosionEffect, transform.position, transform.rotation);
+        Debug.Log("Exploded");
         audioSourceGrenade = GetComponent<AudioSource>();
         audioSourceGrenade.PlayOneShot(audioSourceGrenade.clip, 1f);
-        Collider[] objectsInRange = Physics.OverlapSphere(transform.position, 10);
+        Collider[] objectsInRange = Physics.OverlapSphere(transform.position, radius);
         foreach (Collider objectCollider in objectsInRange)
         {
-            if (objectCollider.gameObject.tag == "Enemy" || objectCollider.gameObject.tag == "GroundProps")
+            if (objectCollider.CompareTag("Enemy") || objectCollider.CompareTag("GroundProps"))
             {
-                Destroy(objectCollider.gameObject);
+                Rigidbody rb = objectCollider.GetComponent<Rigidbody>();
+                if (rb)
+                {
+                    rb.AddExplosionForce(force, transform.position, radius);
+                }
             }
         } 
+        Destroy(gameObject);
     }
     
 }
