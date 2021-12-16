@@ -29,6 +29,19 @@ public class EnemyController : MonoBehaviour
         enemyAnimator.SetBool("Open_Anim", false);
         distanceFromBottom = Random.Range(0f, 5f);
     }
+    
+// Stop robots going into each other
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            enemyAnimator.SetBool("Roll_Anim", false);
+            enemyAnimator.SetBool("Open_Anim", true);
+            transform.position += Vector3.zero;
+            FaceTarget(targetPlayer);
+            currentState = State.finishedMovingToDestination;
+        }
+    }
 
     // Update is called once per frame
     void Update()

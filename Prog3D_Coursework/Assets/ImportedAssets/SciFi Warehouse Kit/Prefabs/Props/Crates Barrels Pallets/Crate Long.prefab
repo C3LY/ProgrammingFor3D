@@ -111,6 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lootDrop:
   - {fileID: 6378302203272779800, guid: 8aa8ae5207b114f7aa0a260b1ccc0535, type: 3}
+  - {fileID: 1722884884378646, guid: d32d3b9240f055349a3a17c88776418e, type: 3}
+  - {fileID: 1433213305384458, guid: 760b1b7fafc50af4ebaf7d30d37227f9, type: 3}
   explosion: {fileID: 6441761017086541164, guid: 9092817648c3745dd9edbe044b7427ff, type: 3}
 --- !u!65 &9173083532384623752
 BoxCollider:

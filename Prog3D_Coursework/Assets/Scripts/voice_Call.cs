@@ -31,6 +31,14 @@ public class voice_Call : MonoBehaviour
         audioSource.clip = uhOhAlarm;
         audioSource.Play();
     }
+    
+    public void playGrenade()
+    {
+        Debug.Log("grenade found audio ");
+        audioSource.clip = foundGrenade;
+        audioSource.Play();
+    }
+
 
     public void playSystemsRoom()
     {
