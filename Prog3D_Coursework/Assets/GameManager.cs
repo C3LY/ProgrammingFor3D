@@ -16,7 +16,10 @@ public class GameManager : MonoBehaviour
     }
 
     private bool keyboxComplete = false;
-
+    private bool systemsRoomsComplete = false;
+    private bool hackSystemsComplete = false;
+    private bool playerPassedPoint = false;
+    private bool alarmSet = false;
     public bool KeyboxComplete
     {
         get => keyboxComplete;
@@ -41,10 +44,12 @@ public class GameManager : MonoBehaviour
         set => alarmSet = value;
     }
 
-    private bool systemsRoomsComplete = false;
-    private bool hackSystemsComplete = false;
-
-    private bool alarmSet = false;
+    public bool PlayerPassedPoint
+    {
+        get => playerPassedPoint;
+        set => playerPassedPoint = value;
+    }
+    
     // Start is called before the first frame update
     private void Awake()
     { 

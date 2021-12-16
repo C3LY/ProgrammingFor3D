@@ -9,15 +9,22 @@ public class Grenade : PickUpItem
     private float radius = 10;
 
     [SerializeField] private GameObject explosionEffect;
-    private void OnMouseUp()
+    private void Update()
     {
-        this.transform.parent = null;
-        GetComponent<Rigidbody>().freezeRotation = false;
-        GetComponent<Rigidbody>().useGravity = true;
-        GetComponent<Rigidbody>().isKinematic = false;
-        GetComponent<Rigidbody>().AddForce(new Vector3(Camera.main.transform.forward.x,0.2f, Camera.main.transform.forward.z) * throwPower, ForceMode.Impulse);    //Adds force in direction where camera is looking with 'throwpower' power and Impulse forcemode
-        GetComponent<Collider>().enabled = true;
-        StartCoroutine(explode());
+        if(Input.GetKeyDown(KeyCode.G))
+        {
+            Debug.Log("mouse key is G");
+            this.transform.parent = null;
+            GetComponent<Rigidbody>().freezeRotation = false;
+            GetComponent<Rigidbody>().useGravity = true;
+            GetComponent<Rigidbody>().isKinematic = false;
+            GetComponent<Rigidbody>()
+                .AddForce(
+                    new Vector3(Camera.main.transform.forward.x, 0.2f, Camera.main.transform.forward.z) * throwPower,
+                    ForceMode.Impulse); //Adds force in direction where camera is looking with 'throwpower' power and Impulse forcemode
+            GetComponent<Collider>().enabled = true;
+            StartCoroutine(explode());
+        }
     }
 
     private IEnumerator explode()

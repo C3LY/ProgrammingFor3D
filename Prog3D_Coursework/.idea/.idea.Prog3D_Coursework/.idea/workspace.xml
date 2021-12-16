@@ -16,7 +16,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PassedPointSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,13 +47,15 @@
         <option value="$PROJECT_DIR$/Assets/voice_Call.cs" />
         <option value="$PROJECT_DIR$/Assets/Fence.cs" />
         <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RobotEnemyController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Grenade.cs" />
+        <option value="$PROJECT_DIR$/Assets/PassedPointSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
       </list>
     </option>
   </component>
@@ -131,7 +135,10 @@
       <workItem from="1639142523088" duration="490000" />
       <workItem from="1639311482589" duration="6306000" />
       <workItem from="1639321419021" duration="5627000" />
-      <workItem from="1639342787646" duration="3102000" />
+      <workItem from="1639342787646" duration="3807000" />
+      <workItem from="1639403017187" duration="734000" />
+      <workItem from="1639590035653" duration="2926000" />
+      <workItem from="1639593619761" duration="10244000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ using UnityEngine;
 public class PickUpItem : MonoBehaviour
 {
 
-    private GameObject slotPosition;
+    private protected GameObject slotPosition;
     private protected float throwPower = 1.5f;
     private void Start()
     {

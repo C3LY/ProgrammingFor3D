@@ -12,6 +12,7 @@ TagManager:
   - ExitDoor
   - GroundProps
   - Enemy
+  - Grenade
   layers:
   - Default
   - TransparentFX
