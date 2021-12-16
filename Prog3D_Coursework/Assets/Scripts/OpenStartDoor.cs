@@ -40,9 +40,11 @@ public class OpenStartDoor : MonoBehaviour
     {
         if (other.CompareTag("Player")&& anim.GetBool("DoorOpen"))
         {
+            anim.SetBool("DoorOpen",  false);
             _audioSource.clip = closeDoorClip;
             _audioSource.Play();
-            StartCoroutine(animateDoorClose());
+
+//            StartCoroutine(animateDoorClose());
         }
     }
     
@@ -50,7 +52,8 @@ public class OpenStartDoor : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         Debug.Log("animating start door");
-        anim.SetBool("DoorOpen",  false);
+
+
     }
 
 }

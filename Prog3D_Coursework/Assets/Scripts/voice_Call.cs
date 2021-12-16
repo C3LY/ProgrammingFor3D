@@ -38,6 +38,13 @@ public class voice_Call : MonoBehaviour
         audioSource.clip = foundGrenade;
         audioSource.Play();
     }
+    
+    public void playCarefulRobots()
+    {
+        Debug.Log("careful robots found audio ");
+        audioSource.clip = carefulRobots;
+        audioSource.Play();
+    }
 
 
     public void playSystemsRoom()

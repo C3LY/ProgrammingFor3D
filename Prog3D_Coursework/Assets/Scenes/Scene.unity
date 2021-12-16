@@ -16812,6 +16812,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2137195129188807160, guid: 4f019145598ea474b899ca25a03acd09, type: 3}
   m_PrefabInstance: {fileID: 2015363026}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &732013385 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3167031632194995179, guid: 4f019145598ea474b899ca25a03acd09, type: 3}
+  m_PrefabInstance: {fileID: 241002338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &732013386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732013385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef0336b36014cf08213c0f8362d01b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceCallEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1672590090}
+        m_TargetAssemblyTypeName: voice_Call, Assembly-CSharp
+        m_MethodName: playCarefulRobots
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!65 &732013387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 732013385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.000002, y: 2.8996172, z: 6.000001}
+  m_Center: {x: 3, y: 1.1998084, z: 2.9999995}
 --- !u!1001 &734764858
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21543,6 +21588,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb4b38db67a56dc469a2c2aafcc36add, type: 3}
+--- !u!1 &1021028552 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3167031632194995179, guid: 4f019145598ea474b899ca25a03acd09, type: 3}
+  m_PrefabInstance: {fileID: 1325822821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1021028553
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021028552}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.000002, y: 1.987757, z: 6.000001}
+  m_Center: {x: 3, y: 0.7438785, z: 2.9999995}
+--- !u!114 &1021028554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021028552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfef0336b36014cf08213c0f8362d01b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  voiceCallEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1672590090}
+        m_TargetAssemblyTypeName: voice_Call, Assembly-CSharp
+        m_MethodName: playCarefulRobots
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1021068868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2137195129188807160, guid: 4f019145598ea474b899ca25a03acd09, type: 3}
@@ -31084,7 +31174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1507689849
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37844,8 +37934,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5.1640625, y: 4.1665096, z: 3.8454762}
-  m_Center: {x: -0.4179802, y: -0.6680765, z: -1.4227381}
+  m_Size: {x: 5.1640625, y: 4.1665096, z: 1.9728813}
+  m_Center: {x: -0.4179802, y: -0.6680765, z: -2.3590355}
 --- !u!114 &1914391935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40971,7 +41061,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2087296663
 MonoBehaviour:
   m_ObjectHideFlags: 0
