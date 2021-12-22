@@ -17,6 +17,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PassedPointSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,6 +63,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/StartCarefulRobots.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +150,7 @@
       <workItem from="1639625448014" duration="121000" />
       <workItem from="1639625592949" duration="12000" />
       <workItem from="1639651805684" duration="393000" />
-      <workItem from="1639652388267" duration="44000" />
+      <workItem from="1639652388267" duration="1110000" />
     </task>
     <servers />
   </component>
