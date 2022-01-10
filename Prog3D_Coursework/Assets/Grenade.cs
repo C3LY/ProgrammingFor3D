@@ -5,6 +5,7 @@ using UnityEngine;
 public class Grenade : PickUpItem
 {
     private AudioSource audioSourceGrenade;
+    private float throwPower = 1.5f;
     private float force = 2f;
     private float radius = 10;
 
@@ -39,12 +40,13 @@ public class Grenade : PickUpItem
         {
             if (objectCollider.CompareTag("Enemy") || objectCollider.CompareTag("GroundProps"))
             {
+                Destroy(objectCollider.gameObject);
 //                Rigidbody rb = objectCollider.GetComponent<Rigidbody>();
                    //                if (rb)
                    //                {
                    //                    rb.AddExplosionForce(force, transform.position, radius);
                    //                }
-                   Destroy(objectCollider.gameObject);
+
             }
         } 
         Destroy(gameObject);

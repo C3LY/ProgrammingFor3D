@@ -12,22 +12,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PassedPointSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StartCarefulRobots.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Grenade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Alarm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StartCarefulRobots.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PassedPointSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Grenade.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,8 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotEnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Grenade.cs" />
         <option value="$PROJECT_DIR$/Assets/PassedPointSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/voice_Call.cs" />
@@ -64,6 +62,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/StartCarefulRobots.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Grenade.cs" />
       </list>
     </option>
   </component>
@@ -151,6 +151,7 @@
       <workItem from="1639625592949" duration="12000" />
       <workItem from="1639651805684" duration="393000" />
       <workItem from="1639652388267" duration="1110000" />
+      <workItem from="1640188048149" duration="645000" />
     </task>
     <servers />
   </component>

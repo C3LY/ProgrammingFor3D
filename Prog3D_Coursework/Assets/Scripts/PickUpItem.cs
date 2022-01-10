@@ -7,7 +7,6 @@ public class PickUpItem : MonoBehaviour
 {
 
     private protected GameObject slotPosition;
-    private protected float throwPower = 1.5f;
     private void Start()
     {
         slotPosition = GameObject.Find("PickUpSlot");
