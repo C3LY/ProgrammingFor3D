@@ -63,11 +63,5 @@ public class GameManager : MonoBehaviour
         get => player;
         set => player = value;
     }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

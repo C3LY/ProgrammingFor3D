@@ -49,10 +49,5 @@ public class HUD : MonoBehaviour
         audioSource.Play();
         goal3.GetComponent<Animator>().SetTrigger("Open");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

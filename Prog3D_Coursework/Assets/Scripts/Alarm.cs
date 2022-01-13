@@ -7,11 +7,7 @@ using UnityEngine.Events;
 public class Alarm : MonoBehaviour
 {
     [SerializeField] private UnityEvent voiceCallEvent;
-
-    private void Start()
-    {
-    }
-
+    
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player") && GameManager.Instance.KeyboxComplete && GameManager.Instance.AlarmSet==false)
@@ -20,12 +16,9 @@ public class Alarm : MonoBehaviour
             voiceCallEvent.Invoke();
             foreach(GameObject lightObject in GameObject.FindGameObjectsWithTag("HangingLight"))
             {
-              //  if(lightObject.name == "Hanging Point Light")
-              //  {
-                    Animator lightObjectAnim = lightObject.GetComponent<Animator>();
+                Animator lightObjectAnim = lightObject.GetComponent<Animator>();
                     lightObjectAnim.SetBool("HangingLightStart", true);
                     StartCoroutine(alarmFlash(lightObjectAnim));
-              //  }
             }
             
             foreach(GameObject alarmSpeaker in GameObject.FindGameObjectsWithTag("AlarmSpeaker"))

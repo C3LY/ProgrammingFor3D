@@ -9,9 +9,7 @@ public class PropDestroy : MonoBehaviour
 {
     [SerializeField] private GameObject[] lootDrop;
     [SerializeField] private GameObject explosion;
-//    [SerializeField] private UnityEvent voiceCallEvent;
 
-    // Start is called before the first frame update
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))

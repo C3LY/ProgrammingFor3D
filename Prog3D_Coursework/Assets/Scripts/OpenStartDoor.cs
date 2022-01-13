@@ -44,16 +44,7 @@ public class OpenStartDoor : MonoBehaviour
             _audioSource.clip = closeDoorClip;
             _audioSource.Play();
 
-//            StartCoroutine(animateDoorClose());
         }
-    }
-    
-    private IEnumerator animateDoorClose()
-    {
-        yield return new WaitForSeconds(1);
-        Debug.Log("animating start door");
-
-
     }
 
 }

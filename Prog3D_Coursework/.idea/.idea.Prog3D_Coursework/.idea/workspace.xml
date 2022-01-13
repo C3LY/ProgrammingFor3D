@@ -13,26 +13,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/voice_Call.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HUD.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StartCarefulRobots.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VoiceCall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StartCarefulRobots.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Grenade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/Randomizer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Alarm.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndComputer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotEnemyController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SystemsEntrance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PassedPointSwitch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Fence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ImportedAssets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Grenade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Keybox.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Editor/Randomizer.cs" />
         <option value="$PROJECT_DIR$/Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" />
         <option value="$PROJECT_DIR$/Assets/DoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/SmashReplace.cs" />
@@ -52,18 +54,26 @@
         <option value="$PROJECT_DIR$/Assets/Fence.cs" />
         <option value="$PROJECT_DIR$/Assets/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotEnemyController.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/PassedPointSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/voice_Call.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" />
         <option value="$PROJECT_DIR$/Assets/StartCarefulRobots.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Grenade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OpenStartDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HUD.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ExitDoor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SystemsEntrance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Fence.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndComputer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/VoiceCall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Alarm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PickUpItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PropDestroy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/Randomizer.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Keybox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Grenade.cs" />
       </list>
     </option>
   </component>
@@ -152,6 +162,16 @@
       <workItem from="1639651805684" duration="393000" />
       <workItem from="1639652388267" duration="1110000" />
       <workItem from="1640188048149" duration="645000" />
+      <workItem from="1642019997629" duration="1153000" />
+      <workItem from="1642028263456" duration="1513000" />
+      <workItem from="1642030153102" duration="1073000" />
+      <workItem from="1642031462388" duration="2297000" />
+      <workItem from="1642037043183" duration="5000" />
+      <workItem from="1642037267723" duration="32000" />
+      <workItem from="1642037559137" duration="426000" />
+      <workItem from="1642038247375" duration="2966000" />
+      <workItem from="1642044413597" duration="2371000" />
+      <workItem from="1642057905110" duration="535000" />
     </task>
     <servers />
   </component>

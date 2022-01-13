@@ -12,8 +12,6 @@ public class PickUpItem : MonoBehaviour
         slotPosition = GameObject.Find("PickUpSlot");
     }
 
-    // Start is called before the first frame update
-
     private void OnTriggerStay(Collider other)
     {
         if(other.CompareTag("Player"))

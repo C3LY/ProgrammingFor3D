@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class voice_Call : MonoBehaviour
+public class VoiceCall : MonoBehaviour
 {
     [SerializeField] private AudioClip IntroAudio;
     [SerializeField] private AudioClip checkChute;
@@ -20,7 +20,7 @@ public class voice_Call : MonoBehaviour
 
     public void playKeybox()
     {
-        Debug.Log("keybox audio ");
+        Debug.Log("Keybox audio ");
         audioSource.clip = foundKeyBox;
         audioSource.Play();
     }
@@ -82,11 +82,5 @@ public class voice_Call : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

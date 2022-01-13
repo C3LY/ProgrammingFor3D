@@ -12,18 +12,18 @@ public class Fence : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-	if(!hasAlreadyPlayed)
-{
-            voiceCallEvent.Invoke();
-		hasAlreadyPlayed = true;
-}
+        { 
+            if(!hasAlreadyPlayed)
+            { 
+                voiceCallEvent.Invoke(); 
+                hasAlreadyPlayed = true; 
+            }
             if (GameManager.Instance.KeyboxComplete)
             {
-                if (Input.GetKeyDown(KeyCode.E))
-                    {
-                        GetComponent<Animator>().SetBool("FenceOpen", true);
-                    }
+                if (Input.GetKeyDown(KeyCode.E)) 
+                {
+                        GetComponent<Animator>().SetBool("FenceOpen", true); 
+                }
             }
         }
     }

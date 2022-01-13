@@ -12,12 +12,6 @@ public class EndComputer : MonoBehaviour
     [SerializeField] private GameObject StrikeUI;
     [SerializeField] private UnityEvent voiceCallEvent;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
